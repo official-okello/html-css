@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Grid</title>
+</head>
+<body>
+    <div style="display: grid; grid-template-columns: 200px 200px 400px;">
+        <div style="background-color: lightblue;">200px <p>text</p></div>
+        <div style="background-color: lightpink;">200px</div>
+        <div style="background-color: lightgreen;">400px</div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 200px 1fr; margin-top: 20px;">
+        <div style="background-color: lightblue;">200px <p>text</p></div>
+        <div style="background-color: lightpink;">1fr</div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 200px 1fr 2fr; margin-top: 20px;">
+        <div style="background-color: lightblue;">200px <p>text</p></div>
+        <div style="background-color: lightpink;">1fr</div>
+        <div style="background-color: lightgreen;">2fr</div>
+    </div>
+</body>
+</html>
