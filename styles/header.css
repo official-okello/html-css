@@ -11,6 +11,7 @@
     border-bottom-style: solid;
     border-bottom-color: rgb(207, 204, 204);
     border-bottom-width: 1px;
+    z-index: 100;
 }
 .left-section{
     display: flex;
@@ -87,6 +88,22 @@
 }
 .notifications-icon{
     height: 30px;
+}
+.notifications-icon-container{
+    position: relative;
+}
+.notifications-count{
+    position: absolute;
+    background-color: rgb(212, 7, 7);
+    color: white;
+    font-size: 12px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    top: -3px;
+    right: -6px;
+    border-radius: 50%;
 }
 .current-user-picture{
     height: 35px;
