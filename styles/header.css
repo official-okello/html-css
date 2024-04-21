@@ -39,7 +39,6 @@
     width: 0;
 }
 .search-bar::placeholder{
-    font-family: Roboto serif, Arial;
     font-size: 20px;
 }
 .search-button{
@@ -64,7 +63,6 @@
 .upload-icon-container .tooltip,
 .youtube-apps-icon-container .tooltip,
 .notifications-icon-container .tooltip{
-    font-family: Roboto serif, Arial;
     position: absolute;
     background-color: gray;
     color: white;
