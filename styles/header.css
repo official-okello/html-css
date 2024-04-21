@@ -8,9 +8,7 @@
     left: 0;
     right: 0;
     background-color: white;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(207, 204, 204);
-    border-bottom-width: 1px;
+    border-bottom: 1px solid rgb(207, 204, 204);
     z-index: 100;
 }
 .left-section{
@@ -19,16 +17,14 @@
 }
 .hamburger-menu{
     height: 28px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 0px 25px 0px 25px;
 }
 .youtube-icon{
     height: 25px;
 }
 .middle-section{
     flex: 1;
-    margin-left: 140px;
-    margin-right: 70px;
+    margin: 0px 70px 0px 140px;
     max-width: 700px;
     display: flex;
     align-items: center;
@@ -38,9 +34,7 @@
     height: 40px;
     padding-left: 14px;
     font-size: 20px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(191, 191, 191);
+    border: 1px solid rgb(191, 191, 191);
     box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.05);
     width: 0;
 }
@@ -52,9 +46,7 @@
     height: 45px;
     width: 65px;
     background-color: rgb(240, 240, 240);
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(191, 191, 191);
+    border: 1px solid rgb(191, 191, 191);
     margin-left: -1px;
 }
 .search-button,
@@ -76,10 +68,7 @@
     position: absolute;
     background-color: gray;
     color: white;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 3px 8px 3px 8px;
     border-radius: 3px;
     font-size: 13px;
     bottom: -30px;
@@ -131,10 +120,7 @@
     background-color: rgb(212, 7, 7);
     color: white;
     font-size: 12px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding: 3px 7px 3px 7px;
     top: -3px;
     right: -6px;
     border-radius: 50%;
